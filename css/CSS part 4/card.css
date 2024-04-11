@@ -1,0 +1,50 @@
+ /* .card{
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px; 
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px skyblue;
+    transition: 1s;
+     
+}
+img{
+     width: 50%;
+    border-radius: 5px 5px 0 0;
+}
+.desc{
+padding: 0 2px 0 2px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px red;
+} */
+
+.face{
+    width: 400px;
+    height: 400px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.left, .right{
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.right{
+    left:250px;
+}
